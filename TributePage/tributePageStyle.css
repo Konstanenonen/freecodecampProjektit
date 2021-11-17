@@ -1,0 +1,41 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #252525;
+    background-color: #f3f3f3;
+    font-family: Arial;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+body {
+    background-color: #d4d4d4;
+}
+h1 {
+    font-family: Arial Black;
+}
+#tribute-info {
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px 10px 10px 10px;
+}
+li {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+a {
+    color: #02193c;
+}
+a:hover {
+    color: red;
+}
+#bottom-text {
+    color: #252525;
+    font-family: Arial Black;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+}
