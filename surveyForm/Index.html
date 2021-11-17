@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <title>Survrey Form</title>
+</head>
+<body class="mystyle">
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This is an example survey form.</p>
+    <form id="survey-form">
+        <label for="name" id="name-label">Name:</label><br>
+        <input class="field margin-bottom" type="text" id="name" name="name" placeholder="Enter your name" required><br>
+        <label for="email" id="email-label">Email:</label><br>
+        <input class="field margin-bottom" type="email" id="email" name="email" placeholder="Enter your email" required><br>
+        <label for="number" id="number-label">Age:</label><br>
+        <input class="field margin-bottom" type="number" id="number" name="number" min="0" max="120" placeholder="Enter your age (optional)"><br>
+        <label for="cars">Choose a pokemon:</label><br>
+        <select class="field" name="cars" id="dropdown">
+          <option value="Picachu">Picachu</option>
+          <option value="Bulbasaur">Bulbasaur</option>
+          <option value="Ditto">Ditto</option>
+          <option value="Snorlax">Snorlax</option>
+        </select><br>
+        <p>what is your gender?</p>
+        <input type="radio" id="gender1" name="gender" value="Female">
+        <label for="gender1"> I am female</label><br>
+        <input type="radio" id="gender2" name="gender" value="Male">
+        <label for="gender2"> I am male</label><br>
+        <input type="radio" id="gender3" name="gender" value="Other">
+        <label for="gender3"> I am something else</label>
+        <p>What of these foods do you like?</p>
+        <input type="checkbox" id="food1" name="vehicle1" value="Pizza">
+        <label for="food1"> Pizza</label><br>
+        <input type="checkbox" id="food2" name="vehicle2" value="Hamburger">
+        <label for="food2"> Hamburger</label><br>
+        <input type="checkbox" id=food3" name="vehicle3" value="Subway">
+        <label for="food3"> Subway</label><br>
+        <p>Any comments or suggestions?</p>
+        <textarea class="field margin-bottom" name="comment" form="usrform">Enter your comment here...</textarea><br>
+        <input class="button" id="submit" type="submit" value="Submit">
+    </form>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>

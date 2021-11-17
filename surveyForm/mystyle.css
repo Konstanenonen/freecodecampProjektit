@@ -1,0 +1,35 @@
+.mystyle {
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.margin-bottom {
+    margin-bottom: 20px;
+}
+form {
+    border-style: solid;
+    padding: 30px 30px 30px 30px;
+    border-radius: 25px;
+    border-color: hsl(211, 100%, 50%);
+}
+.button {
+    color:hsl(211, 100%, 50%);
+    background-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: hsl(211, 100%, 50%);
+    padding: 5px 5px 5px 5px;
+}
+.button:hover {
+    background-color: hsl(211, 57%, 79%);
+}
+.field {
+    width: 100%;
+    border-color: black;
+    background-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    size: 200px;
+}
