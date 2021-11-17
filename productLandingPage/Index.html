@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <header class="sticky" id="header">
+        <img id="header-img" src="https://i.stack.imgur.com/FBVKH.jpg">
+        <nav id="nav-bar">
+            <a class="nav-link" href="#features">Features</a>
+            <a class="nav-link" href="#howitworks">How it works</a>
+            <a class="nav-link" href="#pricing">Pricing</a>
+        </nav>
+    </header>
+    <main class="flex-box">
+        <div class="margin-top margin-bottom">
+            <form class="flex-box"id="form" action="https://www.freecodecamp.com/email-submit">
+                <label class="font margin-bottom" for="email" id="email-label">Handcrafted, home-made masterpieces</label><br>
+                <input class="margin-bottom-small" type="email" id="email" name="email" placeholder="Enter your email" required><br>
+                <input class="button" id="submit" type="submit" value="GET STARTED">
+            </form>
+        </div>
+        <div id="features" class="margin-bottom">
+            <div>
+                <h2>Premium Materials</h2>
+                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase. </p>
+            </div>
+            <div>
+                <h2>Fast Shipping</h2>
+                <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied. </p>
+            </div>
+            <div>
+                <h2>Quality Assurance</h2>
+                <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument. </p>
+            </div>
+        </div>
+        <div id="howitworks" class="margin-bottom">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div id="pricing" class="margin-bottom">
+            <div class="box" id="price1">
+                <h3>TENOR TROMBONE</h3>
+                <p>$600</p>
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum</p>
+                <button class="button" type="button">SELECT</button> 
+            </div>
+            <div class="box" id="price2">
+                <h3>Bass Trombone</h3>
+                <p>$900</p>
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum</p>
+                <button class="button" type="button">SELECT</button> 
+            </div>
+            <div class="box" id="price3">
+                <h3>Valve Trombone</h3>
+                <p>$1200</p>
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum</p>
+                <button class="button" type="button">SELECT</button> 
+            </div>
+        </div>
+    </main>
+    <footer id="footer">
+        <p>All rights reserved</p>
+    </footer>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>

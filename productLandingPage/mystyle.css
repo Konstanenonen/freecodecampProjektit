@@ -1,0 +1,139 @@
+body {
+background-color: darkgray;
+font-family: Arial;
+}
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgray;
+    width: 100%;
+}
+main {
+    background-color: white;
+}
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-evenly;
+}
+#header-img {
+    width: 10%;
+    height: auto;
+}
+#pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
+}
+.box {
+    border-style: solid;
+    width: 275px;
+    height: 300px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0px 0px 0px 0px;
+}
+.flex-box {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1175px) {
+    body {
+      background-color: white;
+    }
+
+    #pricing {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 75%;
+    }
+
+    #header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: darkgray;
+        width: 100%;
+    }
+
+    #features {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 75%;
+        text-align: center;
+    }
+
+    .font {
+        font-family: Arial Black;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #nav-bar {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+}
+.font {
+    margin-top: 100px;
+    font-family: Arial Black;
+    font-size: 30px;
+}
+.button {
+    background-color: darkorange;
+    color: black;
+    font-family: Arial black;
+    border-style: none;
+    border-bottom-left-radius: 0px;
+    padding: 5px 5px 5px 5px;
+}
+.margin-top {
+    margin-top: 50px;
+}
+.margin-bottom {
+    margin-bottom: 30px;
+}
+.margin-bottom-small {
+    margin-bottom: 15px;
+}
+h3 {
+    background-color: darkgrey;
+    padding-top: 20px;
+}
+#email {
+    width: 250px;
+    padding: 5px 5px 5px 5px;
+}
+a {
+    font-family: Arial Black;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+footer {
+    background-color: darkgrey;
+    text-align: center;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
